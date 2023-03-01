@@ -1,3 +1,24 @@
+String.prototype.max = function() {
+     return this + this + this
+}
+const str = "hello".max();
+console.log(str)
+
+for(var i = 0; i<=5; i++){
+    setTimeout(()=>{
+        console.log(i)
+    },200);
+}
+
+
+let arr = [];
+
+arr[100] = 1
+
+console.log(arr.length);
+
+-0o            /
+
 /*
  Problem 1 (Filter Firstname and lastname and store it in to array)
  -------------------------------------------------------------------
